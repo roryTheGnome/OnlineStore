@@ -3,11 +3,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px 32px;
-    background: rgba(17, 17, 17, 0.5);
+    margin-top: 0px;
+    background: #9a8d88;
     color: white;
+
 }
 
 .nav-logo {
+    font-family: Fredoka,sans-serif;
     font-size: 25px;
     font-weight: bold;
 }
@@ -23,7 +26,9 @@
 .nav-links a {
     text-decoration: none; /*STOP DELETING THIS keep it*/
     color: white;
-    font-size: 15px;
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: "JetBrains Mono ExtraBold",sans-serif;
 }
 
 .nav-links a:hover {

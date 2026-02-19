@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer-columns">
                 <div>
-                    <h3>AirBottle</h3>
+                    <h3>AirWrapper</h3>
                     <p>...where purity meets responsibility</p>
                 </div>
 
@@ -20,10 +20,10 @@ export default function Footer() {
                 </div>
 
                 <div>
-                    <h4>Links</h4>
-                    <a href="/">Home</a>
-                    <a href="/">Products</a>
-                    <a href="/">Contact</a>
+                    <h3>Links</h3>
+                    <a href="/public">Home</a>
+                    <a href="/public">Products</a>
+                    <a href="/public">Contact</a>
                 </div>
 
             </div>
