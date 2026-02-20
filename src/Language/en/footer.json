@@ -1,0 +1,17 @@
+{
+  "brand": {
+    "slog": "...where purity meets responsibility"
+  },
+  "contact": {
+    "title": "Contact",
+    "mail": "Mail",
+    "phone": "Phone"
+  },
+  "links": {
+    "title": "Links",
+    "home": "Home",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "bottom": "All rights reserved"
+}

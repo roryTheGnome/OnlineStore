@@ -2,8 +2,11 @@ import React , {useRef}from "react";
 import {useGetProductsQuery} from "../../ProductsApi";
 import Card from "../../Components/Card";
 import "./Products.css"
+import {useTranslation} from "react-i18next";
 
 function Products(){
+    const {t}=useTranslation("products");
+
     const {data, error, isLoading}=useGetProductsQuery();
     const prodRefs= useRef({});
 
@@ -23,7 +26,7 @@ function Products(){
         <section className="products">
 
             <aside className="products-list">
-                <h3>Our Product</h3>
+                <h3>{t("title")}</h3>
 
                 <ul>
                     {products.map((product)=>(

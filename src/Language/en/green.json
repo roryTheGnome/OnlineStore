@@ -1,0 +1,18 @@
+{
+  "title": "Sustainability at Heart",
+  "intro": "We believe clean air and a clean planet go hand in hand. Our green thumb philosophy drives every decision we make.",
+  "cards": [
+    {
+      "title": "Eco Materials",
+      "text": "Responsibly sourced and recyclable components."
+    },
+    {
+      "title": "Energy Efficient",
+      "text": "Designed to minimize energy consumption and waste."
+    },
+    {
+      "title": "Low Emissions",
+      "text": "Cleaner production for a healthier future."
+    }
+  ]
+}

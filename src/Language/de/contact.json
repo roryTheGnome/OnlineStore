@@ -1,0 +1,25 @@
+{
+  "title": "Kontakt zu AirWrapper",
+  "subtitle": "Sie möchten eine Bestellung aufgeben? Lassen Sie es uns wissen",
+
+  "info": {
+    "email": {
+      "title": "E-Mail",
+      "description": "Senden Sie uns eine E-Mail"
+    },
+    "phone": {
+      "title": "Telefon",
+      "description": "Rufen Sie uns an"
+    },
+    "office": {
+      "title": "Büro",
+      "directions": "Route anzeigen →",
+      "locations": [
+        "123 Al. Main, Warschau, Polen",
+        "45 Al. Main, Krakau, Polen"
+      ]
+    }
+  },
+
+  "imageAlt": "Kundendienstmitarbeiter"
+}

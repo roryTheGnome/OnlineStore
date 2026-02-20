@@ -1,0 +1,18 @@
+{
+  "title": "Nachhaltigkeit im Mittelpunkt",
+  "intro": "Wir glauben, dass saubere Luft und ein sauberer Planet Hand in Hand gehen. Unsere grüne Philosophie bestimmt jede Entscheidung, die wir treffen.",
+  "cards": [
+    {
+      "title": "Ökologische Materialien",
+      "text": "Verantwortungsvoll bezogene und recycelbare Komponenten."
+    },
+    {
+      "title": "Energieeffizient",
+      "text": "Entwickelt, um Energieverbrauch und Abfall zu minimieren."
+    },
+    {
+      "title": "Geringe Emissionen",
+      "text": "Sauberere Produktion für eine gesündere Zukunft."
+    }
+  ]
+}

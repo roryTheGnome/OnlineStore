@@ -11,7 +11,7 @@ export default function Nav() {
     const dispatch=useDispatch();
     const currentLang=useSelector((state)=>state.lang.value);
     const toggleLang=()=>{
-        dispatch(setLang(currentLang=="en"?"de": "en"))
+        dispatch(setLang(currentLang==="en"?"de": "en"))
     };
 
 
@@ -26,7 +26,7 @@ export default function Nav() {
             </ul>
 
             <button className="lang-button" onClick={toggleLang}>
-                {currentLang=="en"?"DE": "EN"}
+                {currentLang==="en"?"DE": "EN"}
             </button>
         </nav>
     );

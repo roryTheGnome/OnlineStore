@@ -1,0 +1,25 @@
+{
+  "title": "Contact AirWrapper",
+  "subtitle": "Decided to put an order? Let us know",
+
+  "info": {
+    "email": {
+      "title": "Email",
+      "description": "Send us an email"
+    },
+    "phone": {
+      "title": "Phone",
+      "description": "Give us a call"
+    },
+    "office": {
+      "title": "Office",
+      "directions": "Get Directions →",
+      "locations": [
+        "123 Al. Main, Warsaw, Poland",
+        "45 Al. Main, Krakow, Poland"
+      ]
+    }
+  },
+
+  "imageAlt": "Customer support representative"
+}

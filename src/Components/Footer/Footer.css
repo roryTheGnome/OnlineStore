@@ -27,7 +27,7 @@ p{
     font-family: "JetBrains Mono ExtraBold",sans-serif;
 }
 
-.footer a {
+.footer a , .footer li{
     display: block;
     text-decoration: none;
     color: #ffffff;
@@ -36,7 +36,7 @@ p{
     font-size: 15px;
 }
 
-.footer a:hover {
+.footer a:hover{
     color: lightskyblue;
 }
 

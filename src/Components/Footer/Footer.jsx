@@ -1,34 +1,38 @@
 import React from "react";
 import "./Footer.css";
+import {useTranslation} from "react-i18next";
+import {Link} from "react-router-dom";
 
 export default function Footer() {
+    const {t}=useTranslation("footer")
+
     return (
         <footer className="footer">
             <div className="footer-columns">
                 <div>
                     <h3>AirWrapper</h3>
-                    <p>...where purity meets responsibility</p>
+                    <p>.{t("brand.slog")}</p>
                 </div>
 
                 <div>
-                    <h3>Contact</h3>
-                    <h4>Mail</h4>
+                    <h3>{t("contact.title")}</h3>
+                    <h4>{t("contact.mail")}</h4>
                     <a href="mailto:example@somemail.com">example@somemail.com</a>
-                    <h4>Phone</h4>
+                    <h4>{t("contact.phone")}</h4>
                     <a href="tel:+0000000000">+0 (000) 000 000</a>
                 </div>
 
                 <div>
-                    <h3>Links</h3>
-                    <a href="/">Home</a>
-                    <a href="/products">Products</a>
-                    <a href="/contact">Contact</a>
+                    <h3>{t("links.title")}</h3>
+                    <li><Link to="/">{t("links.home")}</Link></li>
+                    <li><Link to="/products">{t("links.products")}</Link></li>
+                    <li><Link to="/contact">{t("links.contact")}</Link></li>
                 </div>
 
             </div>
 
             <div className="footer-bottom">
-                © {new Date().getFullYear()} AirBottle — All rights reserved
+                © {new Date().getFullYear()} AirBottle — {t("bottom")}
             </div>
         </footer>
     );

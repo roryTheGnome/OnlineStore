@@ -1,0 +1,17 @@
+{
+  "brand": {
+    "slog": "...wo Reinheit auf Verantwortung trifft"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "mail": "E-Mail",
+    "phone": "Telefon"
+  },
+  "links": {
+    "title": "Links",
+    "home": "Startseite",
+    "products": "Produkte",
+    "contact": "Kontakt"
+  },
+  "bottom": "Alle Rechte vorbehalten"
+}
