@@ -2,6 +2,7 @@
 .contact {
     padding: 80px 10%;
     background-color: rgba(145, 192, 241, 0.14);
+    font-family: "JetBrains Mono ExtraBold",sans-serif;
 }
 
 .contact-wrapper {
@@ -19,7 +20,7 @@
     font-size: 2em;
     font-weight: bolder;
     color: rgba(39, 28, 20, 0.8);
-    font-family: "JetBrains Mono ExtraBold",sans-serif;
+    font-family: "Fredoka",sans-serif;
     margin-bottom: 20px;
     letter-spacing: 1.5px;
 }
@@ -72,7 +73,7 @@
         grid-template-columns: 1fr;
     }
 
-    .contact-image {
-        margin-top: 40px;
+    .contact-foto img {
+        width: 80%;
     }
 }

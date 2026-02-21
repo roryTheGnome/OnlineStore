@@ -49,3 +49,20 @@ p{
     font-family: "JetBrains Mono ExtraBold",sans-serif;
     color: #d1e0ef;
 }
+
+@media (max-width: 768px) {
+
+    .footer {
+        padding: 40px 20px 20px;
+        text-align: center;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer a {
+        font-size: 14px;
+    }
+}
