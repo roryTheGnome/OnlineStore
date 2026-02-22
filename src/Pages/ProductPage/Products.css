@@ -14,7 +14,7 @@
 
 .products-list {
     flex: 1;
-    position: sticky;
+    position: relative;
     top:100px;
     background-color: rgba(145, 192, 241, 0.14);
     padding: 20px;
