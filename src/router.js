@@ -5,6 +5,7 @@ import Home from "./Pages/HomePage/Home";
 import Contact from "./Pages/ContactPage/Contact";
 import Products from "./Pages/ProductPage/Products";
 import PageNotFound from "./Pages/404Page/404Page";
+import Cart from "./Pages/Cart";
 
 export const router=createBrowserRouter([
     {
@@ -14,6 +15,7 @@ export const router=createBrowserRouter([
             {index:true, element:<Home/>},
             {path:"contact", element:<Contact/>},
             {path:"products", element:<Products/>},
+            {path:"cart", element:<Cart/>},
             {path:"*", element:<PageNotFound/>},
         ]
     }, //404 page here

@@ -1,7 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {useDispatch} from "react-redux";
+import {addToCart} from "../cartSlice";
+import {useTranslation} from "react-i18next";
 
 function Card(props){
+    const {t}=useTranslation("products");
+
+
+    const dispatch=useDispatch();
 
     const assignQuality= ()=>{
         const quality=Number(props.rating);
@@ -26,6 +33,9 @@ function Card(props){
                 <p className="product-id">{props.id}</p>
             </div>
 
+            <button onClick={() =>
+                dispatch(addToCart({id: props.id, title:props.title, price:props.price}))}>
+                {t("add")}</button>
 
         </div>
     );

@@ -43,7 +43,7 @@ function Products(){
                     (product)=>(
                         <div key={product.id} ref={(i)=>(prodRefs.current[product.id]=i)}>
                             <Card
-                                pId={product.id}
+                                id={product.id}
                                 title={product.title}
                                 description={product.description}
                                 category={product.category}

@@ -2,10 +2,12 @@ import {configureStore} from "@reduxjs/toolkit";
 import {setupListeners} from "@reduxjs/toolkit/query";
 import {ProductsApi} from "./ProductsApi"
 import langSlice from "./langSlice";
+import cartSlice from "./cartSlice";
 
 export const store= configureStore({
     reducer:{
         lang: langSlice,
+        cart: cartSlice,
         [ProductsApi.reducerPath]: ProductsApi.reducer, //so it will auto generates, yey
     },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(ProductsApi.middleware),

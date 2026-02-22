@@ -41,6 +41,7 @@ export default function Nav() {
                 <li><Link to="/" onClick={()=>setMenuOpen(false)}>{t("home")}</Link></li>
                 <li><Link to="/products" onClick={()=>setMenuOpen(false)}>{t("products")}</Link></li>
                 <li><Link to="/contact" onClick={()=>setMenuOpen(false)}>{t("contact")}</Link></li>
+                <li><Link to="/Cart" onClick={()=>setMenuOpen(false)}>{t("cart")}</Link></li>
 
                 <div className="lang mobile-lang">
                     <button className="lang-button" onClick={()=>setOpen(!open)}> {currentLang.toUpperCase()}</button>
