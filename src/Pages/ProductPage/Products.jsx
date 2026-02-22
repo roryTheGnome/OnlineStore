@@ -31,7 +31,7 @@ function Products(){
                 <ul>
                     {products.map((product)=>(
                         <li key={product.id} onClick={()=>scroll(product.id)}>
-                            {product.product_name}
+                            {product.title}
                         </li>
 
                     ))}
@@ -43,11 +43,14 @@ function Products(){
                     (product)=>(
                         <div key={product.id} ref={(i)=>(prodRefs.current[product.id]=i)}>
                             <Card
-                                description={product.product_description}
                                 pId={product.id}
-                                pName={product.product_name}
-                                aquality={product.air_quality}
-                                tones={product.air_tones}/>
+                                title={product.title}
+                                description={product.description}
+                                category={product.category}
+                                price={product.price}
+                                rating={product.rating}
+                                brand={product.brand}
+                            />
                         </div>
                     ))}
             </div>
@@ -56,17 +59,6 @@ function Products(){
 
         </section>
 
-
-        /*<div className="market">
-            {data.products.map((product)=>(
-                <Card key={product.id}
-                      description={product.product_description}
-                      pId={product.id}
-                    pName={product.product_name}
-                      aquality={product.air_quality}
-                      tones={product.air_tones}/>
-            ))}
-        </div>*/
     );
 }
 

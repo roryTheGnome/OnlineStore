@@ -4,24 +4,26 @@ import PropTypes from "prop-types";
 function Card(props){
 
     const assignQuality= ()=>{
-        const quality=Number(props.aquality);
+        const quality=Number(props.rating);
 
-        return quality===3 ? "low" : quality===4 ? "mid" : "high";
+        return quality===5 ? "high" : quality>=4 ? "mid" : "low";
     };
 
     return(
         <div className="products-card">
 
             <div className="card-header">
-                <h3 className="card-title">{props.pName}</h3>
-                <p className={`quality ${assignQuality()}`}> AQ {props.aquality}</p>
+                <h3 className="card-title">{props.title}</h3>
+                <p className={`quality ${assignQuality()}`}>{props.rating}</p>
             </div>
 
             <p className="product-description">{props.description}</p>
 
             <div className="card-details">
-                <p className="product-detail">{props.tones}</p>
-                <p className="product-id">{props.pId}</p>
+                <p className="product-detail">{props.brand}</p>
+                <p className="product-detail">{props.category}</p>
+                <p className="product-detail">{props.price}</p>
+                <p className="product-id">{props.id}</p>
             </div>
 
 
@@ -31,18 +33,22 @@ function Card(props){
 
 Card.propTypes={
     description: PropTypes.string,
-    pName: PropTypes.string,
-    pId: PropTypes.string,
-    aquality: PropTypes.string,
-    tones: PropTypes.string
+    title: PropTypes.string,
+    id: PropTypes.string,
+    catagory: PropTypes.string,
+    price: PropTypes.number,
+    rating: PropTypes.number,
+    brand: PropTypes.string
 }
 
 Card.defaultProps={
     description: "-",
-    pName: "DEMO",
-    pId: "-",
-    aquality: "-",
-    tones: "-"
+    title: "DEMO",
+    id: "-",
+    catagory: "-",
+    price: 0,
+    rating: 0,
+    brand: "-"
 }
 
 export default Card
