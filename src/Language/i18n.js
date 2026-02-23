@@ -38,22 +38,28 @@ import ruProducts from "./ru/products.json";
 import plProducts from "./pl/products.json";
 import uaProducts from "./ua/products.json";
 import byProducts from "./by/products.json";
+import enCart from "./en/cart.json";
+import deCart from "./de/cart.json";
+import ruCart from "./ru/cart.json";
+import plCart from "./pl/cart.json";
+import uaCart from "./ua/cart.json";
+import byCart from "./by/cart.json";
 
 
 i18n.use(LanguageDetector).use(initReactI18next).init({
     resources:{
         en:{translation:enNav, footer:enFooter, about:enAbout, green:enGreen,
-            contact:enContact, products:enProducts},
+            contact:enContact, products:enProducts, cart:enCart},
         de:{translation:deNav, footer:deFooter, about:deAbout, green:deGreen,
-            contact:deContact, products:deProducts},
+            contact:deContact, products:deProducts, cart:deCart},
         ru:{translation:ruNav, footer:ruFooter, about:ruAbout, green:ruGreen,
-            contact:ruContact, products:ruProducts},
+            contact:ruContact, products:ruProducts, cart:ruCart},
         pl:{translation:plNav, footer:plFooter, about:plAbout, green:plGreen,
-            contact:plContact, products:plProducts},
+            contact:plContact, products:plProducts, cart:plCart},
         ua:{translation:uaNav, footer:uaFooter, about:uaAbout, green:uaGreen,
-            contact:uaContact, products:uaProducts},
+            contact:uaContact, products:uaProducts, cart:uaCart},
         by:{translation:byNav, footer:byFooter, about:byAbout, green:byGreen,
-            contact:byContact, products:byProducts},
+            contact:byContact, products:byProducts, cart:byCart},
 //add more langs
     },
 
