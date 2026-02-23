@@ -10,7 +10,7 @@ function Home() {
         <>
             <section className="home">
                 <div className="home-left">
-                    <h1 className="title">AirWrapper</h1>
+                    <h1 className="title">Torba</h1>
                     <h3 className="subtitle">{t("brand.slog")}</h3>
                 </div>
 

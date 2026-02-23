@@ -5,7 +5,7 @@ import Home from "./Pages/HomePage/Home";
 import Contact from "./Pages/ContactPage/Contact";
 import Products from "./Pages/ProductPage/Products";
 import PageNotFound from "./Pages/404Page/404Page";
-import Cart from "./Pages/Cart";
+import Cart from "./Pages/CartPage/Cart";
 
 export const router=createBrowserRouter([
     {
