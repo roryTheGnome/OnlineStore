@@ -9,7 +9,7 @@ function About() {
         <section className="about">
             <div className="about-left">
                 <img
-                    src="https://picsum.photos/id/455/450/550"
+                    src="/assets/about-img.jpg"
                     alt={t("imgAlt")} fetchPriority="high"
                 />
             </div>

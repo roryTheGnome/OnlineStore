@@ -15,7 +15,7 @@ function Home() {
                 </div>
 
                 <div className="home-right">
-                    <img src="https://picsum.photos/id/558/450/650" alt={t("imgAlt")} fetchPriority="high"/>
+                    <img src="/assets/hero-img.jpg" alt={t("imgAlt")} fetchPriority="high"/>
                 </div>
             </section>
             {/*maybe i should carry these part to its own file?? or is this*/}

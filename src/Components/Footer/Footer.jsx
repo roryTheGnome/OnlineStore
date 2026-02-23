@@ -10,7 +10,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer-columns">
                 <div>
-                    <h3>AirWrapper</h3>
+                    <h3>Torba</h3>
                     <p>.{t("brand.slog")}</p>
                 </div>
 
@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
 
             <div className="footer-bottom">
-                © {new Date().getFullYear()} AirBottle — {t("bottom")}
+                © {new Date().getFullYear()} Torba — {t("bottom")}
             </div>
         </footer>
     );
