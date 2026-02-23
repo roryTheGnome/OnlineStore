@@ -6,6 +6,7 @@ import './App.css'
 import Nav from "./Components/Nav/Nav"
 import Footer from "./Components/Footer/Footer";
 import {setLang} from "./langSlice";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 function App(){
 
@@ -23,7 +24,7 @@ function App(){
     return(
         <div className="app">
             <Nav />
-
+            <ScrollToTop/>
             <main>
                 <Outlet />
             </main>

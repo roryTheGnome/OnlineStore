@@ -29,7 +29,7 @@ export default function Nav() {
 
     return (
         <nav className="nav">
-            <div className="nav-logo">AirWrapper</div>
+            <div className="nav-logo">Torba</div>
 
             <div className={`burger ${menuOpen? "active":"not"}`} onClick={() => setMenuOpen(!menuOpen)}>
                 <span></span>
