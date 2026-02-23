@@ -21,7 +21,7 @@ function Card(props){
 
             <div className="card-header">
                 <h3 className="card-title">{props.title}</h3>
-                <p className={`quality ${assignQuality()}`}>{props.rating}</p>
+                <p className={`quality ${assignQuality()}`}>{props.price} pln</p>
             </div>
 
             <p className="product-description">{props.description}</p>
@@ -29,7 +29,6 @@ function Card(props){
             <div className="card-details">
                 <p className="product-detail">{props.brand}</p>
                 <p className="product-detail">{props.category}</p>
-                <p className="product-detail">{props.price}</p>
                 <p className="product-id">{props.id}</p>
             </div>
 
