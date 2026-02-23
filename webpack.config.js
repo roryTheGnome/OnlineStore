@@ -37,6 +37,8 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: "public/assets", to: "assets" },
+                { from: "public/robots.txt", to: "" },
+                { from: "public/_redirects", to: "" }
             ],
         }),
     ],devServer: {
